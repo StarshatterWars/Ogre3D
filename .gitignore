@@ -1,32 +1,20 @@
-# Prerequisites
-*.d
+# Ignore CLion project directory and iml files
+.idea/
+*.iml
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore build directories
+cmake-build-*/
+/build/
+/installed/
+/android-build/
+/embuild/
+/eminstall/
+/mingw/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Meta data of macOS's Finder.app
+.DS_Store
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+/Samples/Media/RTShaderLib/cache/
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Ignore vim files
+*.swp
